@@ -1,6 +1,6 @@
 const express = require('express');
 const {createMenuObject} = require('../helpers/createMenuObject');
-const { pet } = require('../models/pet')
+const { pet } = require('../models/pet');
 
 const home = (req, res) => {
     let list = pet.getAll();
@@ -15,7 +15,7 @@ const home = (req, res) => {
 }
 
 const dogs = (req, res) => {
-    let list = get.getFromType('dog');
+    let list = pet.getFromType('dog');
     res.render('pages/page',{
         menu:createMenuObject('dog'),
         banner: {
@@ -27,7 +27,7 @@ const dogs = (req, res) => {
 }
 
 const cats = (req, res) => {
-    let list = get.getFromType('cat');
+    let list = pet.getFromType('cat');
     res.render('pages/page',{
         menu:createMenuObject('cat'),
         banner: {
@@ -39,7 +39,7 @@ const cats = (req, res) => {
 }
 
 const fishes = (req, res) => {
-    let list = get.getFromType('fish');
+    let list = pet.getFromType('fish');
     res.render('pages/page',{
         menu:createMenuObject('fish'),
         banner: {
