@@ -9,7 +9,7 @@ O nosso projeto tem como base projetos do curso [B7Web](https://b7web.com.br/)
 
 ### Pré-requisitos globais:
 
-`npm i -g nodemon typescript ts-node`
+`npm i -g nodemon`
 
 ### Instalação
 
