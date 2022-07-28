@@ -117,10 +117,10 @@ const data = [
         name: 'Acará Bandeira',
         color: 'Preto',
         sex: 'Masculino'
-    },
+    }
 ];
 
-const pet = {
+const pet = {   
     getAll: () => {
         return data;
     },
