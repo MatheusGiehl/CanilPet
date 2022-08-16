@@ -1,4 +1,10 @@
-# Site de Canil - Adoção
+<h1 align="center"> Site de Canil - Adoção</h1>
+
+<div align="center">
+<img width="80%" src="https://github.com/MatheusGiehl/CanilPet/blob/main/to_readme/Readme.gif">
+</div>
+
+#
 
 ### Desenvolvido em JavaScript e Node.js
 
